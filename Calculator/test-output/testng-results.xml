@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Calculator Test Suite" duration-ms="22507" started-at="2021-03-26T04:41:52Z" finished-at="2021-03-26T04:42:15Z">
+    <groups>
+    </groups>
+    <test name="Calcualtor Addition TestCase" duration-ms="5816" started-at="2021-03-26T04:41:52Z" finished-at="2021-03-26T04:41:58Z">
+      <class name="calculator.tests.AdditionTest">
+        <test-method status="PASS" signature="checkAddition(int, int)[pri:0, instance:calculator.tests.AdditionTest@71e7a66b]" name="checkAddition" duration-ms="5798" started-at="2021-03-26T10:11:52Z" finished-at="2021-03-26T10:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddition -->
+      </class> <!-- calculator.tests.AdditionTest -->
+    </test> <!-- Calcualtor Addition TestCase -->
+    <test name="Calculator Subtraction Test" duration-ms="5564" started-at="2021-03-26T04:41:58Z" finished-at="2021-03-26T04:42:04Z">
+      <class name="calculator.tests.SubtractionTest">
+        <test-method status="PASS" signature="checkSubtract(int, int)[pri:0, instance:calculator.tests.SubtractionTest@6ea6d14e]" name="checkSubtract" duration-ms="5561" started-at="2021-03-26T10:11:58Z" finished-at="2021-03-26T10:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubtract -->
+      </class> <!-- calculator.tests.SubtractionTest -->
+    </test> <!-- Calculator Subtraction Test -->
+    <test name="Calculator Multiplication Test" duration-ms="5612" started-at="2021-03-26T04:42:04Z" finished-at="2021-03-26T04:42:09Z">
+      <class name="calculator.tests.MultiplicationTest">
+        <test-method status="PASS" signature="checkMultiplication(int, int)[pri:0, instance:calculator.tests.MultiplicationTest@649d209a]" name="checkMultiplication" duration-ms="5611" started-at="2021-03-26T10:12:04Z" finished-at="2021-03-26T10:12:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMultiplication -->
+      </class> <!-- calculator.tests.MultiplicationTest -->
+    </test> <!-- Calculator Multiplication Test -->
+    <test name="Calculator Division Test" duration-ms="5484" started-at="2021-03-26T04:42:09Z" finished-at="2021-03-26T04:42:15Z">
+      <class name="calculator.tests.DivisionTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:calculator.tests.DivisionTest@23223dd8]" name="launchApp" is-config="true" duration-ms="4639" started-at="2021-03-26T10:11:48Z" finished-at="2021-03-26T10:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkDivision(int, int)[pri:0, instance:calculator.tests.DivisionTest@23223dd8]" name="checkDivision" duration-ms="5483" started-at="2021-03-26T10:12:09Z" finished-at="2021-03-26T10:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivision -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:calculator.tests.DivisionTest@23223dd8]" name="closeApp" is-config="true" duration-ms="201" started-at="2021-03-26T10:12:15Z" finished-at="2021-03-26T10:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- calculator.tests.DivisionTest -->
+    </test> <!-- Calculator Division Test -->
+  </suite> <!-- Calculator Test Suite -->
+</testng-results>

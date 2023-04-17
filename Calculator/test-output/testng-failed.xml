@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Calculator Test Suite]">
+  <test name="Calculator Subtraction Test(failed)">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.SubtractionTest">
+        <methods>
+          <include name="checkSubtract"/>
+        </methods>
+      </class> <!-- calculator.tests.SubtractionTest -->
+    </classes>
+  </test> <!-- Calculator Subtraction Test(failed) -->
+  <test name="Calculator Multiplication Test(failed)">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.MultiplicationTest">
+        <methods>
+          <include name="checkMultiplication"/>
+        </methods>
+      </class> <!-- calculator.tests.MultiplicationTest -->
+    </classes>
+  </test> <!-- Calculator Multiplication Test(failed) -->
+  <test name="Calculator Division Test(failed)">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkDivision"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+    </classes>
+  </test> <!-- Calculator Division Test(failed) -->
+</suite> <!-- Failed suite [Calculator Test Suite] -->

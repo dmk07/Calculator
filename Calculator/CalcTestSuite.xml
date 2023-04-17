@@ -1,0 +1,30 @@
+<suite name="Calculator Test Suite">
+	<parameter name="v1" value="100"></parameter>
+	<parameter name="v2" value="10"></parameter>
+	
+	<test name="Calcualtor Addition TestCase">	
+		<classes>
+			<class name="calculator.tests.AdditionTest"></class>
+		</classes>	
+	</test>
+	
+	<test name="Calculator Subtraction Test">	
+		<classes>
+			<class name="calculator.tests.SubtractionTest"></class>
+		</classes>	
+	</test>
+
+	<test name="Calculator Multiplication Test">	
+		<classes>
+			<class name="calculator.tests.MultiplicationTest"></class>
+		</classes>	
+	</test>
+	
+	<test name="Calculator Division Test">	
+		<classes>
+			<class name="calculator.tests.DivisionTest"></class>
+		</classes>	
+	</test>
+	
+
+</suite>
