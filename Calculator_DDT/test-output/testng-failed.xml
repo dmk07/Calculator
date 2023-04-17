@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Calculator Test Suite]" parallel="tests">
+  <test name="Calcualtor Addition TestCase(failed)" parallel="tests">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.MultiplyTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.MultiplyTest -->
+      <class name="calculator.tests.SubtractionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.SubtractionTest -->
+      <class name="calculator.tests.AdditionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkAddition"/>
+        </methods>
+      </class> <!-- calculator.tests.AdditionTest -->
+    </classes>
+  </test> <!-- Calcualtor Addition TestCase(failed) -->
+  <test name="Calculator Multiplication Test(failed)" parallel="tests">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.MultiplyTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkAddition"/>
+        </methods>
+      </class> <!-- calculator.tests.MultiplyTest -->
+      <class name="calculator.tests.SubtractionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.SubtractionTest -->
+      <class name="calculator.tests.AdditionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.AdditionTest -->
+    </classes>
+  </test> <!-- Calculator Multiplication Test(failed) -->
+  <test name="Calculator Subtraction Test(failed)" parallel="tests">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.MultiplyTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.MultiplyTest -->
+      <class name="calculator.tests.SubtractionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkSubtract"/>
+        </methods>
+      </class> <!-- calculator.tests.SubtractionTest -->
+      <class name="calculator.tests.AdditionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.AdditionTest -->
+    </classes>
+  </test> <!-- Calculator Subtraction Test(failed) -->
+  <test name="Calculator Division Test(failed)" parallel="tests">
+    <classes>
+      <class name="calculator.tests.DivisionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="checkAddition"/>
+        </methods>
+      </class> <!-- calculator.tests.DivisionTest -->
+      <class name="calculator.tests.MultiplyTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.MultiplyTest -->
+      <class name="calculator.tests.SubtractionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.SubtractionTest -->
+      <class name="calculator.tests.AdditionTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- calculator.tests.AdditionTest -->
+    </classes>
+  </test> <!-- Calculator Division Test(failed) -->
+</suite> <!-- Failed suite [Calculator Test Suite] -->

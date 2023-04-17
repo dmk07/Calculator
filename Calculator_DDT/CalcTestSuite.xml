@@ -1,0 +1,27 @@
+<suite name="Calculator Test Suite" parallel="tests">	
+	
+	<test name="Calcualtor Addition TestCase">	
+		<classes>
+			<class name="calculator.tests.AdditionTest"></class>
+		</classes>	
+	</test>
+	
+	<test name="Calculator Subtraction Test">	
+		<classes>
+			<class name="calculator.tests.SubtractionTest"></class>
+		</classes>	
+	</test>
+
+	<test name="Calculator Multiplication Test">	
+		<classes>
+			<class name="calculator.tests.MultiplyTest"></class>
+		</classes>	
+	</test>
+	
+	<test name="Calculator Division Test">	
+		<classes>
+			<class name="calculator.tests.DivisionTest"></class>
+		</classes>	
+	</test>	
+
+</suite>
